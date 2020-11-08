@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <link rel="icon" href="logo.png">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .light{
+            width: 50%;
+            height: 760px;
+            background: url(1.gif);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+        }
+        .dark{
+            width: 50%;
+            height: 760px;
+            background: url(2.gif);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+        }
+        .dark #btn{
+            margin-top: 50%;
+            width: 170px;
+            height: 60px;
+            font-size: large;
+            font-weight: 800;
+            box-shadow: 3px 3px 3px white;
+            cursor: pointer;
+        }
+        .light #btn{
+            margin-top: 50%;
+            width: 170px;
+            height: 60px;
+            font-size: large;
+            font-weight: 800;
+            color: #ffffff;
+            background-color: black;
+            box-shadow: 3px 3px 3px black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="light">
+        <a href="lightmode.html"><button id="btn">Light Mode</button></a>
+    </div>
+    <div class="dark">
+        <a href="darkmode.html"><button id="btn">Dark Mode</button></a>
+    </div>    
+</body>
+</html>
